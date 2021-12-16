@@ -1,0 +1,145 @@
+//footer
+
+.footer {
+   font-size: 0.75rem;
+   line-height: 100%;
+   width: 100%;
+   color: #000000;
+   padding: 2.3125rem 0rem 0rem 0rem;
+   background: #EDEDED;
+   box-shadow: 0rem -0.25rem 5rem #FFFFFF;
+}
+
+.footer-container{
+   padding: 0.625rem;
+}
+
+.footer__top {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: justify;
+       -ms-flex-pack: justify;
+           justify-content: space-between;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   margin-bottom: 1.5rem;
+}
+
+
+
+.footer__logo {
+   width: 12rem;
+}
+
+.footer__logo svg{
+   width: 12rem;
+   height: 2.25rem;
+}
+
+.footer__logo p{
+   margin-top: 0.625rem;
+}
+
+.footer__logo p{
+   
+}
+
+.footer__btns {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+}
+.footer__btn {
+   height: 2.25rem;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   padding: 0rem 1.5rem;
+   background: -webkit-linear-gradient(358.53deg, #EBEBEB 0%, #F2F2F2 100%);
+   background: linear-gradient(91.47deg, #EBEBEB 0%, #F2F2F2 100%);
+   box-shadow: -0.1875rem -0.1875rem 0.75rem rgba(255, 255, 255, 0.85), 0.1875rem 0.1875rem 0.75rem rgba(0, 0, 0, 0.1);
+   border-radius: 0.1875rem;
+   color: #000000;
+}
+
+.footer__btn:not(:last-child) {
+   margin-right: 1.5rem;
+}
+
+.footer__btn svg {
+   margin-right: 0.375rem;
+}
+
+.footer__bottom {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: justify;
+       -ms-flex-pack: justify;
+           justify-content: space-between;
+   margin-bottom: 2.0625rem;
+   -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
+}
+
+.footer__bottom--list {
+   width: 10rem;
+   border-top: 0.0625rem solid rgba(0, 0, 0, 0.2);
+   padding-top: 0.5625rem;
+}
+
+.footer__bottom--list p{
+   font-family: "Gilroy-Bold";
+}
+
+.footer__bottom--list ul {
+   margin-top: 0.75rem;
+}
+
+.footer__bottom--list li {
+   margin-bottom: 0.5rem;
+}
+
+.footer__bottom--list a{
+   font-family: "PTRootUI-Regular";
+   color: #000000;
+}
+
+.footer__bottom--list svg{
+   width: 1.5rem;
+   height: 1.5rem;
+   fill: #808080;
+}
+
+.footer__service-tel {
+   line-height: 140%;
+}
+
+.footer__icons {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+
+   & li {
+      margin-right: 0.75rem;
+      margin-bottom: 2.25rem;
+   }
+}
+
+.footer__copy {
+   font-weight: 400;
+}
+
+.sprites {
+   height: 0rem;
+}
+
+//footer
